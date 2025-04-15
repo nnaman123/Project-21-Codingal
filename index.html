@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Javascript Objects and its Properties</title>
+    </head>
+    <h2>Javascript Objects and its Properties</h2>
+    <body>
+        <h3>Javascript Objects</h3>
+        <p>Javascript objects are variables that can contain many values. An object is a standalone entity, with properties and type.</p>
+        <p>Objects can be created using object literals, constructor functions, or the Object.create() method.</p>
+        <p>Example of an object literal:</p>
+        <p id="demo"></p>
+        <script>
+          var person = {
+            firstname: "Naman",
+            lastname: "Singh",
+            age: "150",
+            hobbies: "Eating ,Eating and sleeping",
+            address: {
+              street: "123 Main St",
+              city: "New York",
+              state: "NY",
+              zip: "10001",
+                country: "USA",
+                pincode: "10001"
+
+              
+            },
+                Word: "Burger",
+          } 
+          document.getElementById("demo").innerHTML = person.firstname + " " + person.lastname + " is " + person.age + " years old. He lives in " + person.address.city + ", " + person.address.state + ", his favourite hobbies are " + person.hobbies + " " +"and his favourite word is " + person.Word + "."; 
+          
+        </script>
+            
+</html>
